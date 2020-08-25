@@ -1,1 +1,3 @@
 .netrwhist
+plugin_repos/*
+!plugin_repos/.gitkeep
