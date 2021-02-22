@@ -50,6 +50,8 @@ nnoremap <C-w><C-w> :wq<Cr>   "<CTRL-w> + <CTRL-w> :wq
 nnoremap <C-q><C-q> :q!<Cr>   "<CTRL-q> + <CTRL-q> :q!
 
 " switch(move) curret window
+set splitbelow " make the new window appear below the current window
+set splitright " make the new window appear on the right
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
