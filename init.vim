@@ -17,6 +17,9 @@ set relativenumber
 set ruler            "display the cursor position in the lower right corner of the Vim window
 set cursorline       "highlight cursor line
 " set guifont=SF Mono Square          "font setting
+set cmdheight=2      "number of screen lines of command-line
+set signcolumn=yes   "for git, LSP signs
+highlight clear SignColumn
 
 " searching and replacement
 set ignorecase        "ignore case
@@ -32,6 +35,7 @@ set expandtab         "use <Space> insted of <Tab>
 set smarttab
 set smartindent
 set shiftround
+set list listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 
 """"" window """""
